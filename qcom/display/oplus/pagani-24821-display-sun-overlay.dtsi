@@ -1,6 +1,14 @@
 #include "panel/dsi-panel-AA594-P-7-A0020-dsc-cmd-evt.dtsi"
 #include "panel/dsi-panel-AA594-P-7-A0020-dsc-cmd.dtsi"
 
+&demura_memory_0 {
+	status = "disabled";
+};
+
+&demura_memory_1 {
+	status = "disabled";
+};
+
 &soc {
 	oplus,dsi-display-dev {
 		oplus,dsi-panel-primary = <
